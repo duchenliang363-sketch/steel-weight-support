@@ -11,8 +11,8 @@ python3 -m http.server 8000 --directory release/support-site
 打开：
 
 - http://127.0.0.1:8000/
-- http://127.0.0.1:8000/privacy/
-- http://127.0.0.1:8000/support/
+- http://127.0.0.1:8000/privacy.html
+- http://127.0.0.1:8000/support.html
 
 ## 发布
 
@@ -32,7 +32,7 @@ Value: <github-user>.github.io
 
 6. 在 GitHub Pages 启用 HTTPS，再验证：
 
-- https://app.maomaoxingqiu.xin/privacy/
-- https://app.maomaoxingqiu.xin/support/
+- https://app.maomaoxingqiu.xin/privacy.html
+- https://app.maomaoxingqiu.xin/support.html
 
 公开联系邮箱确认后，把邮箱补进 `privacy/index.html` 和 `support/index.html`。
